@@ -1,7 +1,7 @@
 # 1) Clone & install
-!git clone https://github.com/drdave-teaching/bdm_fall2025_opt.git
-%cd bdm_fall2025_opt/portfolio-pipeline
-!python -m pip install -r requirements.txt
+* !git clone https://github.com/drdave-teaching/bdm_fall2025_opt.git
+* %cd bdm_fall2025_opt/portfolio-pipeline
+* !python -m pip install -r requirements.txt
 
 # 2) Get Ipopt via IDAES (puts ipopt at ./bin/ipopt)
 !python -m idaes get-extensions --to ./bin
