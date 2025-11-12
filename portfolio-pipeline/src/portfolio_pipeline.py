@@ -27,10 +27,10 @@ def calculate_monthly_returns(tickers_list, start_date, end_date):
     import sys
     import os
 
-    if 'google.colab' in sys.modules:
-        !pip install idaes-pse --pre
-        !idaes get-extensions --to ./bin
-        os.environ['PATH'] += ':bin'
+    # if 'google.colab' in sys.modules:
+    #     !pip install idaes-pse --pre
+    #     !idaes get-extensions --to ./bin
+    #     os.environ['PATH'] += ':bin'
     dow_prices = {}
     for t in tickers_list:
         try:
